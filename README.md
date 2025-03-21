@@ -157,6 +157,6 @@ http://0.0.0.0:7951/playtorium/discountmodule
 หากพบปัญหาหรือมีข้อเสนอแนะ สามารถติดต่อได้ที่
 - ชื่อ : หัสดินทร์ ชาติเชื้อ
 - เบอร์โทรศัพท์ : 087-324-2259 
-- อีเมลของคุณ : hasadin.chartchue1998@gmail.com
+- Email : hasadin.chartchue1998@gmail.com
 - LinkedIn : https://www.linkedin.com/in/hasadin-c-25b042354/
 - GitHub : https://github.com/hasadin10/playtorium-assignment.git
