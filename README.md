@@ -155,5 +155,5 @@ http://0.0.0.0:7951/playtorium/discountmodule
 
 ## ติดต่อผู้พัฒนา
 หากพบปัญหาหรือมีข้อเสนอแนะ สามารถติดต่อทีมพัฒนาได้ที่:
-- **อีเมล**: support@yourcompany.com
-- **GitHub**: [github.com/yourcompany/discount-module](https://github.com/yourcompany/discount-module)
+- **อีเมล**: hasadin.chartchue1998@gmail.com
+- **GitHub**: https://github.com/hasadin10/playtorium-assignment.git
