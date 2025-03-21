@@ -1,0 +1,47 @@
+{
+    "cart": [
+        {
+            "item_id": 1,
+            "name": "T-Shirt",
+            "category": "Clothing",
+            "price": 350,
+            "quantity": 1
+        },
+        {
+            "item_id": 2,
+            "name": "Hat",
+            "category": "Accessories",
+            "price": 250,
+            "quantity": 1
+        },
+        {
+            "item_id": 3,
+            "name": "Hoodie",
+            "category": "Clothing",
+            "price": 700,
+            "quantity": 1
+        },
+        {
+            "item_id": 4,
+            "name": "Watch",
+            "category": "Electronics",
+            "price": 850,
+            "quantity": 1
+        }
+    ],
+    "discounts": {
+        "coupon": {
+            "type": "fixed-amount",
+            "amount": 50
+        },
+        "ontop": {
+            "type": "category_discount",
+            "category": "Clothing",
+            "percentage": 15
+        },
+        "seasonal": {
+            "every_x": 300,
+            "discount_y": 40
+        }
+    }
+}
