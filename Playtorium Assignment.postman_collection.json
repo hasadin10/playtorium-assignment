@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "305f08a4-fa5b-49ab-9de2-38125e381f24",
+		"name": "Playtorium Assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18641773"
+	},
+	"item": [
+		{
+			"name": "http://0.0.0.0:7951/playtorium/discountmodule",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"cart\": [\r\n    {\r\n      \"item_id\": 1,\r\n      \"name\": \"T-Shirt\",\r\n      \"category\": \"Clothing\",\r\n      \"price\": 350,\r\n      \"quantity\": 1\r\n    },\r\n    {\r\n      \"item_id\": 2,\r\n      \"name\": \"Hat\",\r\n      \"category\": \"Accessories\",\r\n      \"price\": 250,\r\n      \"quantity\": 1\r\n    },\r\n    {\r\n      \"item_id\": 3,\r\n      \"name\": \"Hoodie\",\r\n      \"category\": \"Clothing\",\r\n      \"price\": 700,\r\n      \"quantity\": 1\r\n    },\r\n    {\r\n      \"item_id\": 4,\r\n      \"name\": \"Watch\",\r\n      \"category\": \"Electronics\",\r\n      \"price\": 850,\r\n      \"quantity\": 1\r\n    }\r\n  ],\r\n  \"discounts\": {\r\n    \"coupon\": {\r\n      \"type\": \"fixed_amount\",\r\n      \"amount\": 50\r\n    },\r\n    \"ontop\": \r\n      {\r\n        \"type\": \"category_discount\",\r\n        \"category\": \"Clothing\",\r\n        \"percentage\": 15\r\n      }\r\n    ,\r\n    \"seasonal\": {\r\n      \"every_x\": 300,\r\n      \"discount_y\": 40\r\n    }\r\n  }\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://0.0.0.0:7951/playtorium/discountmodule",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "7951",
+					"path": [
+						"playtorium",
+						"discountmodule"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
